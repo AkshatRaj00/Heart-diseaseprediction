@@ -6,3 +6,5 @@ seaborn
 streamlit
 joblib
 plotly  # <--- Yeh line add karni hai
+shap
+streamlit-shap
