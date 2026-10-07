@@ -11,7 +11,7 @@
     "@react-three/fiber": "^8.17.10",
     "@react-three/drei": "^9.114.0",
     "three": "^0.169.0",
-    "lucide-react": "^0.453.0",
+    "lucide-react": "^1.52.0",
     "clsx": "^2.1.1",
     "tailwind-merge": "^2.5.4",
     "next": "15.0.0",
