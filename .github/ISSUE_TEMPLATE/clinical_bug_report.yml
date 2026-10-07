@@ -1,0 +1,22 @@
+﻿name: Clinical Bug or Telemetry Anomaly
+description: Report an anomaly in model inference, ECG rendering, or clinical calculations.
+title: "[BUG]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: Thank you for reporting! Accurate clinical reporting saves lives.
+  - type: textarea
+    id: clinical-symptoms
+    attributes:
+      label: Description of Anomaly
+      description: What unexpected behavior occurred during patient telemetry intake or model evaluation?
+    validations:
+      required: true
+  - type: input
+    id: patient-vector
+    attributes:
+      label: Patient Telemetry Vector (if applicable)
+      description: e.g. age: 65, trestbps: 160, thalach: 95, oldpeak: 2.5
+    validations:
+      required: false

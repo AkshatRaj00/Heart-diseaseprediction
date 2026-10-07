@@ -1,0 +1,18 @@
+﻿cff-version: 1.2.0
+message: "If you utilize this clinical AI suite, research algorithms, or datasets in medical research, cite as follows:"
+authors:
+  - family-names: "Raj"
+    given-names: "Akshat"
+    affiliation: "CardioSense Medical AI Systems / OnePersonAI"
+title: "CardioSense: High-Acuity ICU Telemetry, Multimodal Prognosis, and Closed-Loop Infusion Platform"
+version: 11.0.0
+date-released: 2026-10-08
+url: "https://github.com/AkshatRaj00/Heart-diseaseprediction"
+keywords:
+  - clinical-ai
+  - cardiology
+  - fhir-r4
+  - asystole-detection
+  - closed-loop-infusion
+  - shap-interpretability
+license: MIT
