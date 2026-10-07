@@ -1,6 +1,19 @@
-version: 2
+﻿version: 2
 updates:
-  - package-ecosystem: "github-actions"
-    directory: "/"
+  - package-ecosystem: "pip"
+    directory: "/backend"
     schedule:
       interval: "weekly"
+    open-pull-requests-limit: 10
+    labels:
+      - "bot:dependencies"
+      - "security"
+
+  - package-ecosystem: "npm"
+    directory: "/frontend"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
+    labels:
+      - "bot:dependencies"
+      - "frontend"

@@ -1,42 +1,27 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Virtual Environments
+﻿# Environment & Secrets
 .env
-.venv
-env/
+.env*.local
+*.env
+
+# Dependencies & Environments
+node_modules/
+frontend/node_modules/
 venv/
-ENV/
+.venv/
+env/
+__pycache__/
+backend/**/__pycache__/
+*.pyc
 
-# IDE / Editor folders
-.vscode/
-.idea/
-*.swp
-*.swo
+# Build outputs & Caches
+.next/
+frontend/.next/
+out/
+build/
+dist/
+.cache/
+*.log
 
-# OS specific
-.DS_Store
-Thumbs.db
+# Large Datasets / Temp files
+*.csv.bak
+*.tar.gz

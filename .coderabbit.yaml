@@ -1,0 +1,15 @@
+﻿version: "2"
+chat:
+  auto_reply: true
+reviews:
+  profile: "assertive"
+  request_changes_workflow: false
+  high_level_summary: true
+  poem: false
+  review_status: true
+  collapse_walkthrough: false
+  path_instructions:
+    - path: "backend/**"
+      instructions: "Enforce strict clinical medical logic. Flag any uncalibrated machine learning risk shifts or insecure API boundaries."
+    - path: "frontend/**"
+      instructions: "Verify high precision ECG Lead-II waveform Canvas renders and WCAG medical accessibility."

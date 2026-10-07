@@ -1,0 +1,8 @@
+﻿version: "1"
+rules:
+  refactorings:
+    - default
+metrics:
+  quality_threshold: 80.0
+github:
+  sourcery_branch: "sourcery/review"

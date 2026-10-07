@@ -1,0 +1,41 @@
+﻿{
+  "projectName": "CardioSense-ICU-Diagnostic-Suite",
+  "projectOwner": "AkshatRaj00",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": ["README.md"],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "gitmoji",
+  "contributors": [
+    {
+      "login": "dependabot[bot]",
+      "name": "Dependabot",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110",
+      "profile": "https://github.com/apps/dependabot",
+      "contributions": ["maintenance", "security"]
+    },
+    {
+      "login": "coderabbitai[bot]",
+      "name": "CodeRabbit AI",
+      "avatar_url": "https://avatars.githubusercontent.com/in/347564",
+      "profile": "https://coderabbit.ai",
+      "contributions": ["review"]
+    },
+    {
+      "login": "sourcery-ai[bot]",
+      "name": "Sourcery AI",
+      "avatar_url": "https://avatars.githubusercontent.com/in/26798",
+      "profile": "https://sourcery.ai",
+      "contributions": ["code"]
+    },
+    {
+      "login": "renovate[bot]",
+      "name": "Renovate Bot",
+      "avatar_url": "https://avatars.githubusercontent.com/in/2740",
+      "profile": "https://github.com/apps/renovate",
+      "contributions": ["maintenance"]
+    }
+  ],
+  "contributorsPerLine": 7
+}
