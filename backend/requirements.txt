@@ -9,6 +9,6 @@ shap>=0.46.0
 pandas>=2.2.0
 langchain>=0.3.0
 langchain-core>=0.3.0
-langchain-openai>=0.2.0
+langchain-openai>=1.6.7
 langchain-groq>=0.2.0
 python-dotenv>=1.2.4
