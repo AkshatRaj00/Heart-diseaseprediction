@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@react-three/fiber": "^8.17.10",
+    "@react-three/fiber": "^9.8.1",
     "@react-three/drei": "^9.114.0",
     "three": "^0.169.0",
     "lucide-react": "^0.453.0",
