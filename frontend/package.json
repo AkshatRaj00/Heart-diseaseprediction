@@ -24,7 +24,7 @@
     "@types/three": "^0.169.0",
     "typescript": "^5.4.5",
     "tailwindcss": "^4.3.3",
-    "postcss": "^8.4.38",
+    "postcss": "^8.5.30",
     "autoprefixer": "^10.4.19"
   }
 }
